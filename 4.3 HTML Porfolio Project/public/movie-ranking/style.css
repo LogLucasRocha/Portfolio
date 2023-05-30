@@ -1,0 +1,13 @@
+body{
+  background-color: #1E1E1E;
+  font-family: sans-serif;
+}
+
+h1,h2,h3,p{
+  color: #D1D1D1;
+}
+
+img{
+  height: 130px;
+  width: 90px;
+}
