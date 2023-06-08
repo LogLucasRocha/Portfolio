@@ -11,3 +11,41 @@ body{
 .level-1{
   text-align: center;
 }
+
+.flags-container{
+  display: flex;
+}
+
+.flag {
+  margin: 20px;
+  position: relative;
+}
+
+#japao{
+  border: 1px solid rgb(212, 212, 212);
+}
+
+
+.flag::before {
+  content: "#1: PALAU";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.flag:nth-child(2)::before {
+  content: "#2: JAPãO";
+}
+
+.flag::after{
+  content: "1 Palau";
+  position: absolute;
+  width: 100%;
+  bottom: -20px;
+  text-align: center;
+  left: 0px;
+
+}
