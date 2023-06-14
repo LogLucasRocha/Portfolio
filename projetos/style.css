@@ -3,7 +3,7 @@ h3{
 }
 
 img {
-  width: 1200px;
+  width: 50%;
 }
 
 footer{
@@ -21,4 +21,30 @@ footer{
 .back{
   font-size: 1.5rem;
   text-align: center;
+}
+
+@media(max-width: 600px){
+  h3{
+    font-size: 1.2rem;
+  }
+  img{
+    width: 100%;
+  }
+  .back{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+@media(max-width: 1200px){
+  h3{
+    font-size: 1.5rem;
+  }
+  img{
+    width: 100%;
+  }
+  .back{
+    font-size: 1.2rem;
+    text-align: center;
+  }
 }

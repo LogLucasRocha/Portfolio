@@ -11,3 +11,13 @@ img{
   height: 130px;
   width: 90px;
 }
+
+@media (max-width:1200px) {
+  body{
+    text-align: center;
+  }
+
+  p{
+    text-align: justify;
+  }
+}

@@ -1,3 +1,45 @@
-footer{
+footer {
   text-align: center;
+}
+
+.intro {
+  text-align: center;
+}
+
+
+li {
+  list-style-type: disc;
+}
+
+.portfolio-link{
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  .intro {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  p{
+    font-size: 1.2rem;
+  }
+  
+  li{
+    font-size: 1.2rem;
+  }
+  .intro {
+    text-align: center;
+  }
+
+  .intro > p {
+    text-align: justify;
+  }
+
 }
